@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Shanti');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    button {
+        background-color: lightslategray;
+        font-family: "Orbitron";
+        font-size: 5vh;
+        color: white;
+    }
+    
+	button:hover {
+        background-color: gray;
+        color:wheat;
+	}
+	button:active { 
+        box-shadow: 0 1px #666;
+        transform: translateY(4px);
+    }
+    
+	body {
+        display:flex;
+    }
+    
+	#root {
+        background-color: #5D5B5A;
+        padding: 0;
+        display:grid;
+        width:100vw;
+        height:100vh;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap:0.2px;
+        grid-template-areas: 
+            "display  display  display  display"
+            "cdisplay cdisplay cdisplay cdisplay"
+            "clear    negate    percent  divide"
+            "seven    eight    nine     multiply"
+            "four     five     six      minus"
+            "one      two      three    plus"
+            "zero     zero     dot      equal";
+    }
+    
+    #display {
+        grid-area: display;
+        color: white;
+        text-align: right;
+        background: #5D5B5A;
+        border: none;
+        font-size: 8vh;
+        font-family: "Shanti";
+    }
+
+    #cdisplay {
+        grid-area: cdisplay;
+        color: wheat;
+        text-align: right;
+        background: #5D5B5A;
+        border: none;
+        font-size: 13vh;
+        font-family: "Shanti"
+    }
+
+    #clear, #percent, #negate {
+        background: #484646;
+    }
+
+    #clear {
+        grid-area: clear;
+    }
+    #negate {
+        grid-area: negate;
+    }
+
+    #percent {
+        grid-area: percent;
+    }
+
+    #divide, #multiply, #minus, #plus, #equal {
+        background: #FF9F0C;
+    }
+    #divide {
+        grid-area: divide;
+    }
+
+    #multiply {
+        grid-area: multiply;
+    }
+
+    #minus {
+        grid-area: minus;
+    }
+
+    #plus {
+        grid-area: plus;
+    }
+
+    #equal {
+        grid-area: equal;
+    }
+
+    #seven, #eight, #nine, #four, #five, #six, #zero, #one, #two, #three, #dot, #equal {
+        background-color: #666564;
+    }
+
+    #seven {
+        grid-area: seven;
+    }
+
+    #eight {
+        grid-area: eight;
+    }
+
+    #nine {
+        grid-area: nine;
+    }
+
+    #four {
+        grid-area: four;
+    }
+
+    #five {
+        grid-area: five;
+    }
+
+    #six {
+        grid-area: six;
+    }
+
+    #one {
+        grid-area: one;
+    }
+
+    #two {
+        grid-area: two;
+    }
+
+    #three {
+        grid-area: three;
+    }
+
+    #zero {
+        grid-area: zero;
+    }
+
+    #dot {
+        grid-area: dot;
+    }
+
+    #equal {
+        grid-area: equal;
+    }
+
+
+
+
+
+	
