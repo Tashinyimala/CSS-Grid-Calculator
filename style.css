@@ -46,6 +46,7 @@
     }
     
     #display {
+        padding-right: .5vw;
         grid-area: display;
         color: white;
         text-align: right;
@@ -56,6 +57,7 @@
     }
 
     #cdisplay {
+        padding-right: .5vw;
         grid-area: cdisplay;
         color: wheat;
         text-align: right;
